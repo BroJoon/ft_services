@@ -20,7 +20,7 @@ INfluxDB database (database for the grafana)
 
 From the outside world, the access to the cluster is made through a load balancer. MetalLB is used for this purpose. It will publish only one IP to access the whole cluster.
 
-#SCHEMA OF OUR CLUSTER
+# SCHEMA OF OUR CLUSTER
 
 ![image](https://user-images.githubusercontent.com/52714837/130298299-09688fa4-28a2-41d1-8e98-93230f97ef7e.png)
 
