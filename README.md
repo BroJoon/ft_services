@@ -1,6 +1,7 @@
 ft_services
 
 SCHEMA OF OUR CLUSTER
+
 ![image](https://user-images.githubusercontent.com/52714837/130298299-09688fa4-28a2-41d1-8e98-93230f97ef7e.png)
 
 The projects is about deploying automatically a cluster of microservices using homemade container images and an orchestration tool. The orchestration tool for managing the containers and their interconnections is kubernetes, it creates and maintains the cluster state for us. Each container image is build from scratch from the alpine linux base image for lightweight and learning purpose. The whole service we are going to run is made of the following microservices (each in its dedicated container).
