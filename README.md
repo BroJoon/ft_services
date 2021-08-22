@@ -26,8 +26,9 @@ From the outside world, the access to the cluster is made through a load balance
 
 ### 💻 How to Run
 
-sh setup.sh
-
+```command
+sh ./setup.sh
+```
 Kubernets dashboard
 
 After you started setup.sh Automatically in 20 seconds you will be directed to the kubernetes dashboard page
